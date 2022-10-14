@@ -1,0 +1,63 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-btn {
+    border: 1px solid;
+    border-color: #0099FF;
+    border-radius: .25rem;
+    color: #0099FF;
+    background-color: none;
+    padding: 4px 20px;
+    text-decoration: none;
+    }
+
+.btn {
+    border: 1px solid;
+    border-color: #0099FF;
+    background-color: #0099FF;
+    color: white;
+    padding: 4px 20px;
+
+}
+
+.header img{
+    width: 100%;
+}
+
+.services, .doctors{
+    background-color: #D7F1F6;
+}
+
+.services img {
+    margin-top: -52px;
+    margin-bottom: 11px;
+}
+
+
+.doctors .specialists div {
+    width: 85%;
+    padding: 10px 9px 0px 12px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.specialists img {
+    margin-top: -52px;
+    margin-bottom: -23px;
+}
+
+@media screen and (max-width: 767px) {
+    .login-btn{
+        border: none;
+        padding: 0px;
+    }
+
+    .btn{
+        margin-bottom: 15px;
+    }
+
+    .header nav {
+        padding-bottom: 44px;
+    }
+  } 
